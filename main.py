@@ -5,7 +5,7 @@ from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 
-@register("server_monitor", "Kimi", "远程服务器监控与报警插件", "1.0.0", "https://github.com/yourusername/astrbot_plugin_server_monitor")
+@register("server_monitor", "nalanox", "远程服务器监控与报警插件", "1.0.0", "https://github.com/imRhoAias/astrbot_plugin_server_monitor")
 class ServerMonitorPlugin(Star):
     def __init__(self, context: Context, config: dict):
         super().__init__(context)
