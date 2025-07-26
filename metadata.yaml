@@ -1,0 +1,6 @@
+# metadata.yaml
+name: server_monitor
+author: nalanox
+description: 远程服务器监控与报警插件，支持定时状态报告和断联报警
+version: 1.0.0
+repo_url: https://github.com/imRhoAias/astrbot_plugin_server_monitor

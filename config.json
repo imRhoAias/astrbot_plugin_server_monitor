@@ -1,0 +1,37 @@
+{
+  "server_ip": {
+    "type": "string",
+    "description": "服务器 IP 地址",
+    "hint": "例如：192.168.1.100"
+  },
+  "ssh_port": {
+    "type": "int",
+    "description": "SSH 端口",
+    "default": 22
+  },
+  "ssh_username": {
+    "type": "string",
+    "description": "SSH 用户名"
+  },
+  "ssh_password": {
+    "type": "string",
+    "description": "SSH 密码（或私钥密码）"
+  },
+  "ssh_key_path": {
+    "type": "string",
+    "description": "SSH 私钥路径（可选）"
+  },
+  "report_time": {
+    "type": "string",
+    "description": "每日状态报告时间（24小时制）",
+    "default": "09:00"
+  },
+  "report_target": {
+    "type": "string",
+    "description": "报告发送目标（管理员或群号）"
+  },
+  "alert_target": {
+    "type": "string",
+    "description": "报警发送目标（管理员或群号）"
+  }
+}
